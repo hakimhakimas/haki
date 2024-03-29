@@ -319,7 +319,7 @@ SM-R096P
 SM-F952H
 SM-Y608N
 SM-C736V""".splitlines()
-	ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
+	ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))+";"[FBAN/FB4A;FBAV/317.0.0.6.86;FBBV/16511067;FBDM/{density=1.0,width=1080,height=1080};FBLC/en_GB;FBCR/DOCTYPE;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G920F;FBSV/8.4.4;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	return ua
 #__________________| LOGO |__________________#
 logo=(f"""
