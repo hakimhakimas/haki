@@ -319,7 +319,7 @@ SM-R096P
 SM-F952H
 SM-Y608N
 SM-C736V""".splitlines()
-	ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))+";[FBAN/FB4A;FBAV/228.0.0.23.69;FBBV/66149196;FBDM/{density=2.0,width=1280,height=1440};FBLC/en_US;FBCR/MTN-CG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J320F;FBSV/11.2.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/129.0.0.39.94;FBBV/51058613;FBDM/{density=1.0,width=1080,height=1080};FBLC/en_US;FBCR/MTN-CG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T561;FBSV/13.0.2;FBOP/1;FBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/229.0.0.13.39;FBBV/10589074;FBDM/{density=1.5,width=1280,height=1920};FBLC/en_GB;FBCR/Nepal_Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J320F;FBSV/10.1.4;FBOP/1;FBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/225.0.0.21.61;FBBV/13165143;FBDM/{density=2.5,width=1080,height=1080};FBLC/en_US;FBCR/MTN-CG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-P5100;FBSV/9.4.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/419.0.0.3.46;FBBV/33189150;FBDM/{density=1.5,width=720,height=1080};FBLC/en_GB;FBCR/DOCTYPE;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J320F;FBSV/6.3.4;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+	ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
 	return ua
 #__________________| LOGO |__________________#
 logo=(f"""
